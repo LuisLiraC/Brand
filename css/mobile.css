@@ -1,0 +1,38 @@
+@media (max-width: 600px){
+    
+    .products {
+        display: inherit;
+        height: auto;
+    }
+
+    .product {
+        margin-top: auto;
+    }
+
+    .main-section {
+        padding: 4%;
+    }
+
+    .advantages {
+        display: inherit;
+        padding: 4%;
+    }
+
+    .advantage {
+        width: 100%;
+        text-align: center;
+    }
+
+    .mentions {
+        text-align: center;
+    }
+
+    .mention-boxes {
+        display: inherit;
+    }
+
+    .mention-box {
+        max-width: 100%;
+    }
+
+}

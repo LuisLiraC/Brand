@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta name="description" content="This is a website">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <title>[Nombre de marca]</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <!-- NavBar -->
+        <nav class="fadeInDown">
+            <div class="brand_image">
+                <a href="index.html"><img src="images/logo.png" alt="Logo"></a>
+            </div>
+            <div class="nav_options">
+                <ul>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="producto.html">Productos y Descripción</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Container -->
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="modulo_pago">
+                    <div class="modulo_pago_img">
+                        <img src="images/box2.png" alt="">
+                    </div>
+                    <h3>Producto 1</h3>
+                    <p>Miles de productos hay en el mercado, pero nada como una caja con gatitos.</p>
+                </div>
+            </div>
+            <div class="col-8">
+                <div class="modulo_pago">
+                    <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_cart&business=S5CYKBWS29MPA&lc=MX&item_name=Caja%20de%20Gatitos&amount=10%2e00&currency_code=USD&button_subtype=products&add=1&bn=PP%2dShopCartBF%3abtn_cart_LG%2egif%3aNonHosted" method="POST">
+                        <label for="nombre">Nombre</label><br>
+                        <input type="text" name="nombre" id="" placeholder="" class="data">
+                        <br>
+
+                        <label for="email">Mail</label><br>
+                        <input type="email" name="email" id="" placeholder="" class="data">
+                        <br>
+
+                        <label for="telefono">Teléfono</label><br>
+                        <input type="phone" name="telefono" id="" placeholder="" class="data">
+
+                        <input type="submit" value="Confirmar Pago" name="submit" class="main_button">
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <!-- Footer -->
+    <footer>
+        <div>
+            <p>Términos y condiciones</p>
+        </div>
+        <div>
+            <p>contacto@gmail.com</p>
+        </div>
+    </footer>
+    
+    <!-- Scripts -->
+    <script src="js/index.js"></script>
+</body>
+</html>
